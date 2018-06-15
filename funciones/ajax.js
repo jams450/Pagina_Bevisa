@@ -1,8 +1,7 @@
 
 $(document).ready(function()
   {
-    $('#enviarmail').on('submit', function(e)
-    {
+    $('#enviarmail').on('submit', function(e){
       e.preventDefault();
       var datos=$(this).serializeArray();
       $.ajax({
@@ -12,7 +11,21 @@ $(document).ready(function()
         dataType: 'json',
         success: function(data) {
           var res=data;
-          alert("XX");
+          if (res.respuesta==="Correcto") {
+              swal({
+                type: 'success',
+                title: 'Su mensae ha sido enviado',
+                text: 'Muy pronto recibira una respuesta',
+              })
+              document.enviarmail.reset();
+          }
+          else {
+            swal({
+              type: 'error',
+              title: 'Hubo un error al enviar su mensaje',
+              text: 'Por favor intente de nuevo',
+            })
+          }
 
         }
       })

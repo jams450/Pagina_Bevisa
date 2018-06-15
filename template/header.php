@@ -21,6 +21,7 @@
   <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/sweetalert2.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="/index.php">Inicio</a></li>
           <li><a href="/index.php#about">Nosotros</a></li>
-          <li class="menu-has-children"><a href="">Productos</a>
+          <li class="menu-has-children"><a href="#productos">Productos</a>
             <ul>
               <li><a href="/galeria.php">Cafeterias</a></li>
               <li><a href="/industrial.php">Industria alimenticia</a></li>

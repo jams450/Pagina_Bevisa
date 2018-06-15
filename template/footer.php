@@ -32,9 +32,7 @@
 <script src="../lib/superfish/hoverIntent.js"></script>
 <script src="../lib/superfish/superfish.min.js"></script>
 <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
-
-
-<script src="../contactform/contactform.js"></script>
+<script src="../js/sweetalert2.min.js"></script>
 <script src="../js/main.js"></script>
 <script src="../funciones/ajax.js"></script>
 </body>
