@@ -11,11 +11,11 @@ $(document).ready(function()
         dataType: 'json',
         success: function(data) {
           var res=data;
-          if (res.respuesta==="Correcto") {
+          if (res.respuesta=="Correcto") {
               swal({
                 type: 'success',
-                title: 'Su mensae ha sido enviado',
-                text: 'Muy pronto recibira una respuesta',
+                title: 'Su mensaje ha sido enviado',
+                text: 'Muy pronto recibirá una respuesta',
               })
               document.enviarmail.reset();
           }
