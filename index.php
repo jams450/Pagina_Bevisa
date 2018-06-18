@@ -6,23 +6,6 @@
       <img src="/img/bevisalogo.png" alt="logo"></img>
       <p>Somos la mejor opción en productos para la industria alimenticia</p>
     </div>
-
-    <div class="product-screens">
-
-      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-        <img height="450px" src="img/saborizante1.png" alt="">
-      </div>
-
-      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-        <img height="450px" src="img/saborizante2.png" alt="">
-      </div>
-
-      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-        <img  height="450px" src="img/saborizante3.png" alt="">
-      </div>
-
-    </div>
-
   </section><!-- #intro -->
 
   <main id="main">
@@ -158,7 +141,6 @@
 
       </div>
     </section><!-- #gallery -->
-
   </main>
 
   <?php include_once'template/footer.php'?>

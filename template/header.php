@@ -29,7 +29,7 @@
   <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <h1><a href="../index.php" class="scrollto">Bevisa</a></h1>
+        <img class="bevisa_letras" src="/img/bevisa.png" alt="logo"></img>
         <img class="logo_p" src="/img/icono.png" alt="logo"></img>
       </div>
 

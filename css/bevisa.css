@@ -6,9 +6,18 @@
 
  .logo_p
   {
+   height: 25px;
+   width: 25px;
+   margin-top: -45px;
+   margin-left: -30px;
+ }
+
+ .bevisa_letras
+  {
    height: 50px;
-   width: 50px;
-   margin-top: -30px;
+   width: 150px;
+   margin-top: -5px;
+   color: #FFFFFF;
  }
 
  #intro h1 {
@@ -27,7 +36,12 @@
 
 .intro_index
 {
-  background: linear-gradient(45deg, rgba(226, 226, 69, 0.6), rgba(243, 243, 123, 0.6)), url("../img/index_galeria.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(226, 226, 69, 0.6), rgba(243, 243, 123, 0.6)), url("../img/index_principal.jpg") center top no-repeat;
+}
+
+.intro_galeria
+{
+  background: linear-gradient(45deg, rgba(250, 216, 152, 0.6), rgba(240, 199, 121, 0.6)), url("../img/index_galeria.jpg") center top no-repeat;
 }
 
 .caja_verde
