@@ -96,27 +96,35 @@
 
             <div class="col-lg-6 col-md-6 box wow fadeInRight">
               <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              <h4 class="title"><a href="">Bebidas Calientes</a></h4>
+              <h4 class="title">Bebidas Calientes</h4>
               <p class="description">El mejor acompañante para tus capuchinos y lattes.</p>
-              <a href="#pulpas" class="get-started-btn">Ver Sabores</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+                Ver sabores
+              </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
               <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-              <h4 class="title"><a href="">Bebidas Frias</a></h4>
+              <h4 class="title">Bebidas Frias</h4>
               <p class="description">Refrescate con nuestros inigualables sabores</p>
-              <a href="#" class="get-started-btn">Ver Sabores</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+                Ver sabores
+              </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-              <h4 class="title"><a href="">Coctelería</a></h4>
+              <h4 class="title">Coctelería</h4>
               <p class="description">Disfruta de sabores hechos especialmente para ti.</p>
-              <a href="#" class="get-started-btn">Ver Sabores</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+                Ver sabores
+              </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">Tabla de dosificación</a></h4>
+              <h4 class="title">Tabla de dosificación</h4>
               <p class="description">Utilizando nuestros productos te garantizamos una dosificación menor, logrando un ahorro a tu bolsillo.</p>
-              <a href="#" class="get-started-btn">Ver Tabla</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+                Ver sabores
+              </button>
             </div>
           </div>
 
@@ -230,5 +238,55 @@
 </section>
 
 </main>
+
+<!-- MODAL -->
+<div class="modal fade" id="saborescalientes_jarabes" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="saboresfrios_jarabes" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cocteleria_jarabes" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <?php include_once'template/footer.php'?>

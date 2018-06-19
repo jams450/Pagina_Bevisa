@@ -6,7 +6,7 @@
       <img src="/img/bevisalogo.png" alt="logo"></img>
       <p>Somos la mejor opción en productos para la industria alimenticia</p>
     </div>
-  </section><!-- #intro -->
+  </section>
 
   <main id="main">
 
