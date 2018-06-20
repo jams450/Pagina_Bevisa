@@ -44,10 +44,10 @@
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section>
 
     <!--==========================
-      More Features Section
+      Prodcutos
     ============================-->
     <section id="more-features">
       <div class="container">
@@ -60,7 +60,7 @@
           <div class="col-lg-6">
               <div class="box wow fadeInLeft">
                   <div class="icon"><i class="fa fa-coffee"></i></div>
-                  <h4 class="title"><a href="">Galeria</a></h4>
+                  <h4 class="title"><a href="/galeria.php">Galeria</a></h4>
                   <p class="description">Insumos para cafeterías, restaurantes y bares</p>
               </div>
           </div>
@@ -75,7 +75,7 @@
 
         </div>
       </div>
-    </section><!-- #more-features -->
+    </section>
 
     <!--==========================
       Galeria
@@ -140,7 +140,7 @@
         </div>
 
       </div>
-    </section><!-- #gallery -->
+    </section>
   </main>
 
   <?php include_once'template/footer.php'?>

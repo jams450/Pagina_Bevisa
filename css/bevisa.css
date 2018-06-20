@@ -20,6 +20,15 @@
    color: #FFFFFF;
  }
 
+
+ @media (max-width: 1000px) {
+   .bevisa_letras
+    {
+     height: 30px;
+     width: 100px;
+   }
+ }
+
  #intro h1 {
    margin: 30px 0 10px 0;
    padding: 0 15px;
@@ -47,4 +56,11 @@
 .caja_verde
 {
   background: rgba(86, 242, 84, 0.1);
+}
+
+.btn-primary {
+
+  color: #fff;
+  background: linear-gradient(45deg, rgba(228, 51, 131, 1), rgba(228, 149, 51, 1));
+  border-color: rgba(228, 51, 131, 1);
 }

@@ -20,7 +20,8 @@
     </div>
 
   </div>
-</section><!-- #intro -->
+</section>
+
 <main id="main">
 
 <section id="pricing" class="section">
@@ -95,34 +96,34 @@
           <div class="row">
 
             <div class="col-lg-6 col-md-6 box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              <div class="icon"><i class="fas fa-fire"></i></div>
               <h4 class="title">Bebidas Calientes</h4>
               <p class="description">El mejor acompañante para tus capuchinos y lattes.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+              <button type="button" class="btn  btn-primary " data-toggle="modal" data-target="#saborescalientes_jarabes">
                 Ver sabores
               </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-              <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+              <div class="icon"><i class="fa fa-snowflake"></i></div>
               <h4 class="title">Bebidas Frias</h4>
               <p class="description">Refrescate con nuestros inigualables sabores</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saboresfrios_jarabes">
                 Ver sabores
               </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-              <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+              <div class="icon"><i class="fas fa-wine-glass"></i></div>
               <h4 class="title">Coctelería</h4>
               <p class="description">Disfruta de sabores hechos especialmente para ti.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cocteleria_jarabes">
                 Ver sabores
               </button>
             </div>
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <div class="icon"><i class="fas fa-list-ol"></i></div>
               <h4 class="title">Tabla de dosificación</h4>
               <p class="description">Utilizando nuestros productos te garantizamos una dosificación menor, logrando un ahorro a tu bolsillo.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saborescalientes_jarabes">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dosificacion_jarabes">
                 Ver sabores
               </button>
             </div>
@@ -152,24 +153,36 @@
         <div class="row">
 
           <div class="col-lg-6 col-md-6 box wow fadeInLeft">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Frappes</a></h4>
+            <div class="icon"><i class="fa fa-snowflake"></i></div>
+            <h4 class="title">Frappes</h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#frappes_bases">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.1s">
-            <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-            <h4 class="title"><a href="">Smoothies</a></h4>
+            <div class="icon"><i class="ion-beaker"></i></div>
+            <h4 class="title">Smoothies</h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#smoothies_bases">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-            <h4 class="title"><a href="">Bebidas Calientes</a></h4>
+            <div class="icon"><i class="fas fa-fire"></i></div>
+            <h4 class="title">Bebidas Calientes</h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#calientes_bases">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.3s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Tabla de dosificación</a></h4>
+            <div class="icon"><i class="fas fa-list-ol"></i></div>
+            <h4 class="title">Tabla de dosificación</h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dosificacion_bases">
+              Ver tabla
+            </button>
           </div>
         </div>
       </div>
@@ -239,7 +252,7 @@
 
 </main>
 
-<!-- MODAL -->
+<!-- MODAL Jarabes -->
 <div class="modal fade" id="saborescalientes_jarabes" tabindex="-1" role="dialog"  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -260,7 +273,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Frias</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -276,7 +289,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Coctelería </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -288,5 +301,86 @@
   </div>
 </div>
 
+<div class="modal fade" id="dosificacion_jarabes" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Dosificación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL Bases -->
+<div class="modal fade" id="frappes_bases" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Frappes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="smoothies_bases" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Smoothies</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="calientes_bases" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Calientes </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dosificacion_bases" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Dosificación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Sabores XXXXXXXXXXX
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL Pulpas -->
 
 <?php include_once'template/footer.php'?>

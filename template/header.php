@@ -16,12 +16,13 @@
   <link href="../css/bevisa.css" rel="stylesheet">
 
   <link href="../lib/animate/animate.min.css" rel="stylesheet">
-  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../lib/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
   <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <link href="../css/style.css" rel="stylesheet">
   <link href="../css/sweetalert2.min.css" rel="stylesheet">
+  <link href="../lib/superfish/css/superfish.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,12 +41,13 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="/index.php">Inicio</a></li>
           <li><a href="/index.php#about">Nosotros</a></li>
-          <li class="menu-has-children"><a href="#productos">Productos</a>
+          <li class="menu-has-children"><a href="#">Productos</a>
             <ul>
               <li><a href="/galeria.php">Cafeterias</a></li>
               <li><a href="/industrial.php">Industria alimenticia</a></li>
             </ul>
           </li>
+          <li><a href="/recetas.php">Recetas</a></li>
           <li><a href="/servicios.php">Servicios</a></li>
           <li><a href="/contacto.php">Contactanos</a></li>
         </ul>
