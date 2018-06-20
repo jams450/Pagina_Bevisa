@@ -114,7 +114,7 @@
             <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fas fa-wine-glass"></i></div>
               <h4 class="title">Coctelería</h4>
-              <p class="description">Disfruta de sabores hechos especialmente para ti.</p>
+              <p class="description">Disfruta de sabores hechos especialmente para ti.</p><br>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cocteleria_jarabes">
                 Ver sabores
               </button>
@@ -155,7 +155,8 @@
           <div class="col-lg-6 col-md-6 box wow fadeInLeft">
             <div class="icon"><i class="fa fa-snowflake"></i></div>
             <h4 class="title">Frappes</h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+            <p class="description">Atrévete a disfrutar los mejores sabores.</p>
+            <br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#frappes_bases">
               Ver sabores
             </button>
@@ -163,7 +164,7 @@
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.1s">
             <div class="icon"><i class="ion-beaker"></i></div>
             <h4 class="title">Smoothies</h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+            <p class="description">Dale consistencia a tus bebidas </p>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#smoothies_bases">
               Ver sabores
             </button>
@@ -171,7 +172,8 @@
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.2s">
             <div class="icon"><i class="fas fa-fire"></i></div>
             <h4 class="title">Bebidas Calientes</h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+            <p class="description">Para esos días de frío.</p>
+            <br>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#calientes_bases">
               Ver sabores
             </button>
@@ -179,7 +181,7 @@
           <div class="col-lg-6 col-md-6 box wow fadeInLeft" data-wow-delay="0.3s">
             <div class="icon"><i class="fas fa-list-ol"></i></div>
             <h4 class="title">Tabla de dosificación</h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+            <p class="description">Utilizando la cantidad exacta de nuestro producto, lograras conquistar tu paladar</p>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dosificacion_bases">
               Ver tabla
             </button>
@@ -222,23 +224,23 @@
 
           <div class="col-lg-6 col-md-6 box wow fadeInRight">
             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+            <h4 class="title"><a href="">Smoothies</a></h4>
+            <p class="description">Deleita tu paladar con nuestros sabores frutales</p>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
             <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+            <h4 class="title"><a href="">Chamoyadas</a></h4>
+            <p class="description">.</p>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
             <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+            <h4 class="title"><a href="">Agua</a></h4>
+            <p class="description">  </p>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+            <h4 class="title"><a href="">Tabla de dosificación</a></h4>
+            <p class="description"></p>
           </div>
         </div>
 
@@ -254,7 +256,7 @@
 
 <!-- MODAL Jarabes -->
 <div class="modal fade" id="saborescalientes_jarabes" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Calientes</h5>
@@ -263,14 +265,54 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <ul>
+                <li>Almendra</li>
+                <li>Almendra-Moka</li>
+                <li>Amaretto</li>
+                <li>Avellana</li>
+                <li>Brandi</li>
+                <li>Cajeta</li>
+                <li>Canela</li>
+                <li>Caramelo</li>
+                <li>Cereza</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Chai</li>
+                <li>Choco Menta</li>
+                <li>Chocolate Blanco</li>
+                <li>Chocolate Suizo</li>
+                <li>Crema Irlandesa</li>
+                <li>Crema de Menta</li>
+                <li>Crema de Whisky</li>
+                <li>Cofee-Tofi</li>
+                <li>Licor de Café</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Mantequilla</li>
+                <li>Mazapán</li>
+                <li>Moka</li>
+                <li>Macadamia</li>
+                <li>Pistache</li>
+                <li>Rompope</li>
+                <li>Vainilla</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <div class="modal fade" id="saboresfrios_jarabes" tabindex="-1" role="dialog"  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Bebidas Frias</h5>
@@ -279,14 +321,60 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <ul>
+                <li>Algodón de Azúcar</li>
+                <li>Arándano</li>
+                <li>Cereza</li>
+                <li>Cerveza de raíz</li>
+                <li>Cherri-Cola</li>
+                <li>Chicle</li>
+                <li>Coco</li>
+                <li>Curacao</li>
+                <li>Durazno</li>
+                <li>Frambuesa</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Fresa</li>
+                <li>Hierbabuena</li>
+                <li>Kiwi</li>
+                <li>Limón</li>
+                <li>Lima</li>
+                <li>Lichi</li>
+                <li>Mandarina</li>
+                <li>Mango</li>
+                <li>Manzana Verde </li>
+                <li>Maracuyá</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Melon</li>
+                <li>Mora Azul</li>
+                <li>Menta</li>
+                <li>Naranja</li>
+                <li>Piña</li>
+                <li>Piña Colada</li>
+                <li>Plátano</li>
+                <li>Pepino</li>
+                <li>Sandia</li>
+                <li>Uva</li>
+                <li>Zarzamora</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <div class="modal fade" id="cocteleria_jarabes" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Coctelería </h5>
@@ -295,7 +383,50 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <ul>
+                <li>Brandi</li>
+                <li>Licor de café</li>
+                <li>Mediterráneo (Malibú)</li>
+                <li>Mojito</li>
+                <li>Ron</li>
+                <li>Rosas</li>
+                <li>Tequila</li>
+                <li>Violeta</li>
+                <li>Arándano</li>
+                <li>Durazno</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Frambuesa</li>
+                <li>Fresa</li>
+                <li>Crema de Menta</li>
+                <li>Melón</li>
+                <li>Hierbabuena</li>
+                <li>Cereza</li>
+                <li>Choco Menta</li>
+                <li>Chocolate Suizo</li>
+                <li>Coco </li>
+                <li>Manzana Verde</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li>Maracuyá </li>
+                <li>Mora Azul</li>
+                <li>Menta</li>
+                <li>Moka</li>
+                <li> Plátano</li>
+                <li>Sandia</li>
+                <li>Zarzamora</li>
+                <li>Kiwi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

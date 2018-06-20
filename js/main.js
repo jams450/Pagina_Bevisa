@@ -129,3 +129,7 @@ jQuery(document).ready(function($) {
   // custom code
 
 });
+
+$('.disable').click(function(e){
+     e.preventDefault();
+})

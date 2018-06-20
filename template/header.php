@@ -41,7 +41,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="/index.php">Inicio</a></li>
           <li><a href="/index.php#about">Nosotros</a></li>
-          <li class="menu-has-children"><a href="#">Productos</a>
+          <li class="menu-has-children"><a class="disable" href="">Productos</a>
             <ul>
               <li><a href="/galeria.php">Cafeterias</a></li>
               <li><a href="/industrial.php">Industria alimenticia</a></li>

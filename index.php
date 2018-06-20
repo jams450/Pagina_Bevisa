@@ -13,7 +13,7 @@
     <!--==========================
       Nosotros
     ============================-->
-    <section id="about" class="caja_verde">
+    <section id="about">
       <div class="container-fluid">
         <div class="section-header">
           <h3 class="section-title">Nosotros</h3>
@@ -80,7 +80,7 @@
     <!--==========================
       Galeria
     ============================-->
-    <section id="gallery" class="caja_verde">
+    <section id="gallery" >
       <div class="container-fluid">
         <div class="section-header">
           <h3 class="section-title">Galería</h3>

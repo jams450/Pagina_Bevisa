@@ -53,14 +53,33 @@
   background: linear-gradient(45deg, rgba(250, 216, 152, 0.6), rgba(240, 199, 121, 0.6)), url("../img/index_galeria.jpg") center top no-repeat;
 }
 
-.caja_verde
+.intro_industrial
 {
-  background: rgba(86, 242, 84, 0.1);
+  background: linear-gradient(45deg, rgba(149, 212, 212, 0.4), rgba(24, 174, 174, 0.4)), url("../img/index_industrial.jpg") center top no-repeat;
 }
 
-.btn-primary {
 
+.btn-primary {
   color: #fff;
   background: linear-gradient(45deg, rgba(228, 51, 131, 1), rgba(228, 149, 51, 1));
   border-color: rgba(228, 51, 131, 1);
 }
+
+
+.btn-secondary {
+  color: #fff;
+  background: linear-gradient(45deg, rgba(44, 154, 154, 1), rgba(111, 194, 194, 0.6));
+  border-color: rgba(42, 161, 161, 1);
+}
+
+
+.btn-secondary:hover {
+  color: #fff;
+  background: rgba(3, 118, 118, 1);
+  border-color: rgba(3, 118, 118, 1);
+}
+
+.btn-secondary:focus,.btn-secondary.focus {
+  color: #fff;
+  background: rgba(2, 118, 118, 1);
+  border-color: rgba(2, 118, 118, 1);
