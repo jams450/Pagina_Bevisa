@@ -11,7 +11,6 @@
   <main id="main">
     <section id="contact">
       <div class="container">
-        <div class="row wow fadeInUp">
           <div class="col-md-12">
             <div class="contact-about text-center">
               <h3>Bevisa</h3>
@@ -27,17 +26,14 @@
                     <i class="ion-ios-location-outline"></i>
                     <p>Privada de las Américas Manzana 6 Lote 27 <br>Iztapalapa, CDMX</p>
                   </div>
-
                   <div>
                     <i class="ion-ios-email-outline"></i>
                     <p>bevisagaleria@gmail.com</p>
                   </div>
-
                   <div>
                     <i class="ion-ios-telephone-outline"></i>
                     <p>59756148</p>
                   </div>
-
                   <div>
                     <i class="fa fa-whatsapp"></i>
                     <p>5559756148</p>
@@ -46,45 +42,46 @@
                 </div>
               </div>
             </div>
-
           </div>
+      </div>
+    </section>
 
-          <div class="col-md-12">
-            <div class="contact-about text-center">
-              <h3>LLena el Formulario</h3>
-              <p>Muy pronto nos contactaremos con usted</p>
-            </div>
-            <div class=" col-md-12">
-              <div class="form">
+    <section id="contact">
+      <div class="container">
+        <div class="col-md-12">
+        <div class="contact-about text-center">
+          <h3>LLena el Formulario</h3>
+          <p>Muy pronto nos contactaremos con usted</p>
+        </div>
+        <div class=" col-md-12">
+          <div class="form">
 
-                <form action="funciones/email.php" method="post" id="enviarmail" name="enviarmail">
-                  <div class="form-row">
-                    <div class="form-group col-lg-6">
-                      <input type="text" name="nombre"  required class="form-control" id="nombre" placeholder="Nombre"/>
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-group col-lg-6">
-                      <input type="email" class="form-control" required name="email" id="email" placeholder="Email" />
-                      <div class="validation"></div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" required name="asunto" id="asunto" placeholder="Asunto"/>
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" name="mensaje" rows="5" required placeholder="Mensaje"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                  <div class="text-center"><button type="submit" title="Send Message">Enviar</button></div>
-                </form>
-
+            <form action="funciones/email.php" method="post" id="enviarmail" name="enviarmail">
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                  <input type="text" name="nombre"  required class="form-control" id="nombre" placeholder="Nombre"/>
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-lg-6">
+                  <input type="email" class="form-control" required name="email" id="email" placeholder="Email" />
+                  <div class="validation"></div>
+                </div>
               </div>
-            </div>
-          </div>
+              <div class="form-group">
+                <input type="text" class="form-control" required name="asunto" id="asunto" placeholder="Asunto"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="mensaje" rows="5" required placeholder="Mensaje"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit" title="Send Message">Enviar</button></div>
+            </form>
 
+          </div>
         </div>
       </div>
+    </div>
     </section>
   </main>
 
