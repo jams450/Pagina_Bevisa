@@ -2,8 +2,8 @@
 
 <section id="intro" class="intro_galeria">
   <div class="intro-text">
-    <img src="/img/bevisalogo.png" alt="logo"></img>
-    <p>Elige el sabor de tu dia</p>
+    <img src="/img/galeria.png" class="logo" alt="logo"></img>
+    <p class="logo_letras">Elige el sabor de tu dia</p>
   </div>
   <div class="product-screens">
 
@@ -188,15 +188,10 @@
           </div>
         </div>
       </div>
-
       <div class="col-lg-4 col-md-5 features-img">
         <img src="img/base.png" height="450px" class="wow fadeInRight">
       </div>
-
-
-
     </div>
-
   </div>
   </section>
 </section>
@@ -204,43 +199,49 @@
 <section id="pulpas" class="section-bg">
   <section id="features">
   <div class="container">
-
     <div class="row">
-
       <div class="col-lg-8 offset-lg-4">
         <div class="section-header wow fadeIn" data-wow-duration="1s">
           <h3 class="section-title">Pulpas</h3>
           <span class="section-divider"></span>
         </div>
       </div>
-
       <div class="col-lg-4 col-md-5 features-img">
         <img src="img/pulpa.png" height="450px" class="wow fadeInLeft">
       </div>
-
       <div class="col-lg-8 col-md-7 ">
-
         <div class="row">
-
           <div class="col-lg-6 col-md-6 box wow fadeInRight">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Smoothies</a></h4>
+            <div class="icon"><i class="ion-beaker"></i></div>
+            <h4 class="title">Smoothies</h4>
             <p class="description">Deleita tu paladar con nuestros sabores frutales</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sabores_pulpas">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-            <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-            <h4 class="title"><a href="">Chamoyadas</a></h4>
+            <div class="icon"><i class="fas fa-vial"></i></div>
+            <h4 class="title">Chamoyadas</h4>
             <p class="description">.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sabores_pulpas">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-            <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-            <h4 class="title"><a href="">Agua</a></h4>
+            <div class="icon"><i class="fas fa-tint"></i></div>
+            <h4 class="title">Agua</h4>
             <p class="description">  </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sabores_pulpas">
+              Ver sabores
+            </button>
           </div>
           <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Tabla de dosificación</a></h4>
+            <div class="icon"><i class="fas fa-list-ol"></i></div>
+            <h4 class="title">Tabla de dosificación</h4>
             <p class="description"></p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dosificacion_pulpas">
+              Ver tabla
+            </button>
           </div>
         </div>
 
@@ -442,7 +443,28 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <table class="table table-bordered text-center">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Jarabe Galeria</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>6-8 Oz.</td>
+              <td>1/2 Oz.</td>
+            </tr>
+            <tr>
+              <td>10-12 Oz</td>
+              <td>3/4 Oz</td>
+            </tr>
+            <tr>
+              <td>14-16 Oz</td>
+              <td>1 Oz</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -459,7 +481,33 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li>Blue Berry</li>
+              <li>Capuchino</li>
+              <li>Chicle</li>
+              <li>Chocolate Blanco</li>
+              <li>Choco Frambuesa</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>Cookies and Cream</li>
+              <li>Frambuesa</li>
+              <li>Horchata</li>
+              <li>Latte</li>
+              <li>Moka</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>Moka Chino</li>
+              <li>Pay de Limón</li>
+              <li>Vainilla</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -475,7 +523,11 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <ul>
+          <li>Crema</li>
+          <li>Yogurt</li>
+          <li>Cristal</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -491,7 +543,12 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+          <ul>
+            <li>Chai Manzana Canela</li>
+            <li>Chai Té Verde</li>
+            <li>Chai Té Negro</li>
+            <li>Chai Vainilla</li>
+          </ul>
       </div>
     </div>
   </div>
@@ -507,11 +564,80 @@
         </button>
       </div>
       <div class="modal-body">
-          Sabores XXXXXXXXXXX
+        <table class="table table-bordered text-center">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Bases Galeria</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10-12 Oz.</td>
+              <td>40 g.</td>
+            </tr>
+            <tr>
+              <td>14-16 Oz</td>
+              <td>60 g</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
 </div>
-<!-- MODAL Pulpas -->
 
+<!-- MODAL Pulpas -->
+<div class="modal fade" id="sabores_pulpas" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Sabores</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Fresa</li>
+          <li>Tamarindo</li>
+          <li>Mango</li>
+          <li>Piña</li>
+          <li>Piña Colada</li>
+          <li>Guayaba</li>
+          <li>Maracuyá</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dosificacion_pulpas" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Dosificación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-bordered text-center">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Pulpisa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>14-16 Oz.</td>
+              <td>3 Oz</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 <?php include_once'template/footer.php'?>

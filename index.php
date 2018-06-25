@@ -1,9 +1,8 @@
 <?php include_once'template/header.php'?>
 
-
   <section id="intro" class="intro_index">
     <div class="intro-text">
-      <img src="/img/bevisalogo.png" alt="logo"></img>
+      <img height="90%" src="/img/bevisalogo_blanco.png" alt="logo"></img>
       <p>Somos la mejor opción en productos para la industria alimenticia</p>
     </div>
   </section>
@@ -45,7 +44,38 @@
 
       </div>
     </section>
-
+    <section id="advanced-features">
+      <div class="features-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="wow fadeInLeft">
+                <h2>Nuestro Valores</h2>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li>INNOVACIÓN</li>
+                      <li>CONFIANZA</li>
+                      <li>LEALTAD</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul >
+                      <li>HONESTIDAD</li>
+                      <li>COMPROMISO</li>
+                      <li>COMPETITIVIDAD</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/valores.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--==========================
       Prodcutos
     ============================-->
@@ -68,7 +98,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-industry"></i></div>
-              <h4 class="title"><a href="">Industria Alimenticia</a></h4>
+              <h4 class="title"><a href="/industrial.php">Industria Alimenticia</a></h4>
               <p class="description">Colores, sabores y emulsiones</p>
             </div>
           </div>

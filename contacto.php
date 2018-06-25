@@ -2,7 +2,6 @@
 
   <section id="intro" class="intro_contacto">
     <div class="intro-text">
-      <img class="img-fluid" src="/img/bevisalogo.png" alt="logo"></img>
       <h1>Contacto</h1>
       <p>Dejanos un Mensaje</p>
     </div>
@@ -35,7 +34,7 @@
                     <p>59756148</p>
                   </div>
                   <div>
-                    <i class="fa fa-whatsapp"></i>
+                    <i class="fab fa-whatsapp"></i>
                     <p>5559756148</p>
                   </div>
 

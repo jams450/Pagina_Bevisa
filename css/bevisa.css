@@ -8,16 +8,16 @@
   {
    height: 25px;
    width: 25px;
-   margin-top: -45px;
+   margin-top: -40px;
    margin-left: -30px;
  }
 
  .bevisa_letras
   {
-   height: 50px;
+   height: 40px;
    width: 150px;
-   margin-top: -5px;
    color: #FFFFFF;
+   margin-top: 0px;
  }
 
 
@@ -58,6 +58,12 @@
   background: linear-gradient(45deg, rgba(149, 212, 212, 0.4), rgba(24, 174, 174, 0.4)), url("../img/index_industrial.jpg") center top no-repeat;
 }
 
+.intro_recetas
+{
+  background: linear-gradient(45deg, rgba(189, 50, 50, 0.4), rgba(232, 83, 83, 0.4)), url("../img/index_recetas.jpg") center top no-repeat;
+}
+
+
 
 .btn-primary {
   color: #fff;
@@ -83,3 +89,27 @@
   color: #fff;
   background: rgba(2, 118, 118, 1);
   border-color: rgba(2, 118, 118, 1);
+
+}
+
+.logo{
+  height: 350px;
+  width: 60%;
+}
+
+.logo_letras{
+  margin-top: -100px;
+}
+
+ @media (max-width: 800px) {
+   .logo{
+     height: 200px;
+     width: 60%;
+     margin-top: -90px;
+   }
+
+   .logo_letras{
+     margin-top: -10px;
+   }
+
+ }
