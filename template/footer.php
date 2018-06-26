@@ -26,6 +26,11 @@
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+<div class="social-bar">
+    <a href="intent://send/5559756148#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end" class="icono-social icon-whatsapp" >5559756148 &nbsp;&nbsp;<i class="fab fa-whatsapp"></i></a>
+    <a href="/contacto.php#formulario" class="icono-social icon-mail" target="_blank">bevisagaleria@gmail.com &nbsp;<i class="far fa-envelope"></i></a>
+  </div>
+
 <script src="../lib/jquery/jquery.min.js"></script>
 <script src="../lib/jquery/jquery-migrate.min.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>

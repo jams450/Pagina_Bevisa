@@ -46,7 +46,7 @@
     </section>
 
     <section id="contact">
-      <div class="container">
+      <div id="formulario"class="container">
         <div class="col-md-12">
         <div class="contact-about text-center">
           <h3>LLena el Formulario</h3>

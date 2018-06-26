@@ -1,13 +1,18 @@
 jQuery(document).ready(function($) {
 
+
   // Header fixed and Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
+      $('.social-bar').fadeIn('slow');
+      $('.social-bar').css("display","flex");
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
+      $('.social-bar').fadeOut('slow');
+      
     }
   });
 
@@ -129,7 +134,3 @@ jQuery(document).ready(function($) {
   // custom code
 
 });
-
-$('.disable').click(function(e){
-     e.preventDefault();
-})

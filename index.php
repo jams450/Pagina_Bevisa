@@ -1,14 +1,14 @@
 <?php include_once'template/header.php'?>
 
-  <section id="intro" class="intro_index">
+
+  <section id="intro" class="intro_index ">
     <div class="intro-text">
-      <img height="90%" src="/img/bevisalogo_blanco.png" alt="logo"></img>
+      <img src="/img/bevisalogo_blanco.png" class="logo-bevisa"  alt="logo"></img>
       <p>Somos la mejor opción en productos para la industria alimenticia</p>
     </div>
   </section>
 
-  <main id="main">
-
+  <main id="main" >
     <!--==========================
       Nosotros
     ============================-->
@@ -44,6 +44,7 @@
 
       </div>
     </section>
+    
     <section id="advanced-features">
       <div class="features-row">
         <div class="container">
