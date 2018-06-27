@@ -24,9 +24,18 @@
   <link href="../css/sweetalert2.min.css" rel="stylesheet">
   <link href="../lib/superfish/css/superfish.css" rel="stylesheet">
 </head>
-<body>
 
-  <header id="header" class="d-none">
+<div class="bg"></div>
+
+<div id="loading" class="loader">
+  <div class="item item-1"></div>
+  <div class="item item-2"></div>
+  <div class="item item-3"></div>
+  <div class="item item-4"></div>
+</div>
+
+<body>
+  <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
         <a href="/index.php" >
@@ -52,10 +61,3 @@
       </nav>
     </div>
   </header>
-
-  <div id="loading" class="loader">
-    <div class="item item-1"></div>
-    <div class="item item-2"></div>
-    <div class="item item-3"></div>
-    <div class="item item-4"></div>
-  </div>

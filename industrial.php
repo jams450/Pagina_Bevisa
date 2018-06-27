@@ -4,7 +4,7 @@ include_once'template/header.php';
 
 <section id="intro" class="intro_industrial">
   <div class="intro-text">
-    <img height="90%" src="/img/bevisalogo_blanco.png" alt="logo"></img>
+    <img class="logo-bevisa" src="/img/bevisalogo_blanco.png" alt="logo"></img>
     <p>Somos la mejor opción en productos para la industria alimenticia</p>
   </div>
 
@@ -15,7 +15,8 @@ include_once'template/header.php';
     <div class="features-row">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+
+          <div class="col-md-3 text-center">
             <div class="btn-group-vertical wow fadeInLeft">
                 <button type="button"  onclick="esconder('#Especialidades')" class="btn btn-secondary">Especialidades</button>
                 <button type="button" onclick="esconder('#Coloresgel')" class="btn btn-secondary">Colores en Gel</button>
@@ -24,6 +25,7 @@ include_once'template/header.php';
                 <button type="button" onclick="esconder('#Saborespolvo')" class="btn btn-secondary">Sabores en Polvo</button>
             </div>
           </div>
+
           <div id="Especialidades" class="col-md-9 hidden  ">
             <h2>Especialidades</h2>
             <h3>Descripcion</h3>
@@ -252,6 +254,7 @@ include_once'template/header.php';
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

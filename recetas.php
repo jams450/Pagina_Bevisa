@@ -1,7 +1,7 @@
 <?php include_once'template/header.php'?>
   <section id="intro" class="intro_recetas">
     <div class="intro-text">
-      <img src="/img/galeria.png" class="logo animated rubberBand" alt="logo"></img>
+      <img src="/img/galeria.png" class="logo animated rubberBand" alt="logo" ></img>
       <p class="animated tada">¡Prueba Nuestras deliciosas recetas!</p>
     </div>
   </section>

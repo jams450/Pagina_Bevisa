@@ -44,39 +44,41 @@
 
       </div>
     </section>
-    
-    <section id="advanced-features">
-      <div class="features-row">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <div class="wow fadeInLeft">
-                <h2>Nuestro Valores</h2>
-                <div class="row">
-                  <div class="col-md-6">
-                    <ul>
-                      <li>INNOVACIÓN</li>
-                      <li>CONFIANZA</li>
-                      <li>LEALTAD</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-6">
-                    <ul >
-                      <li>HONESTIDAD</li>
-                      <li>COMPROMISO</li>
-                      <li>COMPETITIVIDAD</li>
-                    </ul>
-                  </div>
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Nuestros Valores</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="wow fadeInLeft">
+              <div class="row">
+                <div class="col-md-6 valores">
+                  <ul>
+                    <li>INNOVACIÓN</li>
+                    <li>CONFIANZA</li>
+                    <li>LEALTAD</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 valores">
+                  <ul >
+                    <li>HONESTIDAD</li>
+                    <li>COMPROMISO</li>
+                    <li>COMPETITIVIDAD</li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/valores.jpg" alt="">
-            </div>
+          </div>
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="/img/valores.jpg" alt="">
           </div>
         </div>
+
       </div>
-    </section>
+    </section>s
     <!--==========================
       Prodcutos
     ============================-->
@@ -120,15 +122,15 @@
 
         <div class="row no-gutters">
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-1.jpg" alt="">
+              <a href="img/gallery/galeria1.jpg" class="gallery-popup">
+                <img src="img/gallery/galeria1.jpg"  alt="">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-2.jpg" alt="">
@@ -136,15 +138,19 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-3.jpg" alt="">
+              <a href="img/gallery/galeria2.jpg" class="gallery-popup">
+                <img src="img/gallery/galeria2.jpg" alt="">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-4.jpg" alt="">
@@ -152,22 +158,21 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-5.jpg" alt="">
+              <a href="img/gallery/galeria3.jpg" class="gallery-popup">
+                <img src="img/gallery/galeria3.jpg" alt="">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-6.jpg" alt="">
               </a>
             </div>
           </div>
-
         </div>
 
       </div>

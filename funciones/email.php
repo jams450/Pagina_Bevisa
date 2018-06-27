@@ -1,9 +1,9 @@
 <?php
 $destino="bevisagaleria@gmail.com";
-
-$mensaje= $_POST['email'];
-$mensaje .= $_POST['mensaje'];
-$titulo = $_POST['asunto'];
+$mensaje="Nombre: " . $_POST['nombre'] ."\n";
+$mensaje.="Correo: " . $_POST['email'] ." \n";
+$mensaje.="Mensaje : " . $_POST['mensaje'];
+$titulo ="Mensaje enviado desde la pagina Web : " . $_POST['asunto'];
 $bool = mail($destino,$titulo,$mensaje);
 if ($bool) {
   $respuesta="Correcto";

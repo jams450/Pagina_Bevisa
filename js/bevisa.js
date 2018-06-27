@@ -9,13 +9,9 @@ $('.disable').click(function(e){
 })
 
 
-$(window).load(function(){
-   window.setTimeout( show_popup, 5000 ); // 5 seconds
-})
-
 $(window).ready(function() {
-    $('#loading').hide();
-    $('#header').removeClass("d-none");
-    $('#main').removeClass("d-none");
-    $('#intro').removeClass("d-none");
+  setTimeout(function () {
+    $(".bg").fadeOut("slow");
+    $("#loading").fadeOut("slow");
+  }, 200);  
 });
