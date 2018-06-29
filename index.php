@@ -152,8 +152,8 @@
 
           <div class="col-lg-4">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/index/gallery/gallery-4.jpg" class="gallery-popup">
-                <img src="img/index/gallery/gallery-4.jpg" alt="">
+              <a href="img/index/gallery/industrial2.jpg" class="gallery-popup">
+                <img src="img/index/gallery/industrial2.jpg" alt="">
               </a>
             </div>
           </div>
@@ -168,8 +168,8 @@
 
           <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/index/gallery/gallery-6.jpg" class="gallery-popup">
-                <img src="img/index/gallery/gallery-6.jpg" alt="">
+              <a href="img/index/gallery/industrial3.jpg" class="gallery-popup">
+                <img src="img/index/gallery/industrial3.jpg" alt="">
               </a>
             </div>
           </div>
