@@ -20,7 +20,7 @@
 
         <div class="row">
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="/img/nosotros.jpg" alt="">
+            <img src="/img/index/nosotros.jpg" alt="">
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
@@ -72,8 +72,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="/img/valores.jpg" alt="">
+          <div class="col-lg-6 about-img wow fadeInRight">
+            <img src="/img/index/valores.jpg" alt="">
           </div>
         </div>
 
@@ -124,24 +124,24 @@
 
           <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/galeria1.jpg" class="gallery-popup">
-                <img src="img/gallery/galeria1.jpg"  alt="">
+              <a href="img/index/gallery/galeria1.jpg" class="gallery-popup">
+                <img src="img/index/gallery/galeria1.jpg"  alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-2.jpg" alt="">
+              <a href="img/index/gallery/industrial1.jpg" class="gallery-popup">
+                <img src="img/index/gallery/industrial1.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/galeria2.jpg" class="gallery-popup">
-                <img src="img/gallery/galeria2.jpg" alt="">
+              <a href="img/index/gallery/galeria2.jpg" class="gallery-popup">
+                <img src="img/index/gallery/galeria2.jpg" alt="">
               </a>
             </div>
           </div>
@@ -152,24 +152,24 @@
 
           <div class="col-lg-4">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-4.jpg" alt="">
+              <a href="img/index/gallery/gallery-4.jpg" class="gallery-popup">
+                <img src="img/index/gallery/gallery-4.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/galeria3.jpg" class="gallery-popup">
-                <img src="img/gallery/galeria3.jpg" alt="">
+              <a href="img/index/gallery/galeria3.jpg" class="gallery-popup">
+                <img src="img/index/gallery/galeria3.jpg" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 ">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-6.jpg" alt="">
+              <a href="img/index/gallery/gallery-6.jpg" class="gallery-popup">
+                <img src="img/index/gallery/gallery-6.jpg" alt="">
               </a>
             </div>
           </div>

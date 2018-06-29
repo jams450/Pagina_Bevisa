@@ -8,15 +8,15 @@
   <div class="product-screens">
 
     <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-      <img height="450px" src="img/saborizante1.png" alt="">
+      <img height="450px" src="img/galeria/saborizante1.png" alt="">
     </div>
 
     <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-      <img height="450px" src="img/saborizante2.png" alt="">
+      <img height="450px" src="img/galeria/saborizante2.png" alt="">
     </div>
 
     <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-      <img  height="450px" src="img/saborizante3.png" alt="">
+      <img  height="450px" src="img/galeria/saborizante3.png" alt="">
     </div>
 
   </div>
@@ -36,7 +36,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="box featured wow fadeInLeft">
           <h3>Jarabes</h3>
-          <img width="100px" height="200px" src="/img/jarabes.png"></img>
+          <img width="100px" height="200px" src="/img/galeria/jarabes.png"></img>
           <ul>
             <li><i class="fa fa-coffee"></i> Bebidas Calientes</li>
             <li><i class="fa fa-coffee"></i> Bebidas Frías</li>
@@ -49,7 +49,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="box featured wow fadeInUp">
           <h3>Bases</h3>
-          <img width="230px" height="198px" src="/img/bases.png"></img>
+          <img width="230px" height="198px" src="/img/galeria/bases.png"></img>
           <ul>
             <li><i class="ion-beaker"></i> Frapes</li>
             <li><i class="ion-beaker"></i> Smoothies</li>
@@ -62,7 +62,7 @@
       <div class="col-lg-4 col-md-6">
         <div class="box featured wow fadeInRight">
           <h3>Pulpas</h3>
-          <img width="230px" height="198px" src="/img/pulpas.png"></img>
+          <img width="230px" height="198px" src="/img/galeria/pulpas.png"></img>
           <ul>
             <li><i class="ion-beaker"></i> Smoothies</li>
             <li><i class="ion-beaker"></i> Agua de sabor</li>
@@ -88,7 +88,7 @@
         </div>
 
         <div class="col-lg-4 col-md-5 features-img">
-          <img src="img/jarabe.png" height="450px" alt="" class="wow fadeInLeft">
+          <img src="img/galeria/jarabe.png" height="450px" alt="" class="wow fadeInLeft">
         </div>
 
         <div class="col-lg-8 col-md-7 ">
@@ -189,7 +189,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-5 features-img">
-        <img src="img/base.png" height="450px" class="wow fadeInRight">
+        <img src="img/galeria/base.png" height="450px" class="wow fadeInRight">
       </div>
     </div>
   </div>
@@ -207,7 +207,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-5 features-img">
-        <img src="img/pulpa.png" height="450px" class="wow fadeInLeft">
+        <img src="img/galeria/pulpa.png" height="450px" class="wow fadeInLeft">
       </div>
       <div class="col-lg-8 col-md-7 ">
         <div class="row">

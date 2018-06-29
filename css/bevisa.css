@@ -41,29 +41,33 @@
 
 .intro_contacto
 {
-  background: linear-gradient(45deg, rgba(63, 191, 63, 0.3), rgba(64, 191, 64, 0.3)), url("../img/contacto.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(63, 191, 63, 0.3), rgba(64, 191, 64, 0.3)), url("../img/contacto/contacto.jpg") center top no-repeat;
 }
 
 .intro_index
 {
-  background: linear-gradient(45deg, rgba(226, 226, 69, 0.6), rgba(243, 243, 123, 0.6)), url("../img/index_principal.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(226, 226, 69, 0.6), rgba(243, 243, 123, 0.6)), url("../img/index/index_principal.jpg") center top no-repeat;
 }
 
 .intro_galeria
 {
-  background: linear-gradient(45deg, rgba(250, 216, 152, 0.6), rgba(240, 199, 121, 0.6)), url("../img/index_galeria.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(250, 216, 152, 0.6), rgba(240, 199, 121, 0.6)), url("../img/galeria/index_galeria.jpg") center top no-repeat;
 }
 
 .intro_industrial
 {
-  background: linear-gradient(45deg, rgba(149, 212, 212, 0.4), rgba(24, 174, 174, 0.4)), url("../img/index_industrial.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(149, 212, 212, 0.4), rgba(24, 174, 174, 0.4)), url("../img/industrial/index_industrial.jpg") center top no-repeat;
 }
 
 .intro_recetas
 {
-  background: linear-gradient(45deg, rgba(189, 50, 50, 0.4), rgba(232, 83, 83, 0.4)), url("../img/index_recetas.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(189, 50, 50, 0.4), rgba(232, 83, 83, 0.4)), url("../img/recetas/index_recetas.jpg") center top no-repeat;
 }
 
+.intro_servicios
+{
+  background: linear-gradient(45deg, rgba(241, 115, 241, 0.4), rgba(183, 155, 211, 0.4)), url("../img/servicios/index_servicios.jpg") center top no-repeat;
+}
 
 
 .btn-primary {
@@ -72,6 +76,11 @@
   border-color: rgba(228, 51, 131, 1);
 }
 
+.btn-servicios {
+  color: #fff;
+  background: linear-gradient(45deg, rgba(228, 51, 131, 1), rgba(228, 149, 51, 1));
+  border-color: rgba(228, 51, 131, 1);
+}
 
 .btn-secondary {
   color: #fff;
@@ -126,10 +135,11 @@
  background-size: cover;
  position: relative;
  z-index: 1000;
+ position: fixed;
 }
 
  .loader {
-   position: absolute;
+   position: fixed;
    width: 200px;
    height: 200px;
    top: 0;
@@ -266,6 +276,11 @@
 	display: flex;
 	transition: all .5s;
 }
+ @media (max-width: 900px) {
+     .icono-social {
+     padding: .5rem;
+    }
+ }
 
 .icon-whatsapp {
 	background: #35D835;
@@ -281,7 +296,16 @@
 .icon-whatsapp i,.icon-mail i{
 	font-size: 28px;
 }
+ @media (max-width: 900px) {
+   .icon-whatsapp {
+   	background: #35D835;
+     margin-left: -100px;
+   }
 
+  .icon-whatsapp i,.icon-mail i{
+  	font-size: 20px;
+  }
+}
 .icono-social:first-child {
 	border-radius: 0 1rem 0 0;
 }
@@ -312,4 +336,22 @@
     margin-top: 10px;
     font-size: 15px;
   }
+}
+
+/* industrial orden 4113 son 8*/
+.img-industrial{
+  width: 100%;
+  height: 200px;
+}
+
+ @media (max-width: 900px) {
+   .btn-group-vertical{
+     margin-bottom: 20px;
+   }
+
+   .img-industrial{
+     width: 90%;
+     height: 150px;
+     margin-bottom: 10px;
+   }
 }
