@@ -1,5 +1,4 @@
 <?php include_once'template/header.php'?>
-
   <section id="intro" class="intro_contacto">
     <div class="intro-text">
       <h1>Contacto</h1>

@@ -55,7 +55,7 @@
           <div class="col-md-6">
             <div class="wow fadeInLeft">
               <div class="row">
-                <div class="col-md-6 valores">
+                <div class="col-md-6 valores ">
                   <ul>
                     <li>INNOVACIÓN</li>
                     <li>CONFIANZA</li>
@@ -78,7 +78,7 @@
         </div>
 
       </div>
-    </section>s
+    </section>
     <!--==========================
       Prodcutos
     ============================-->

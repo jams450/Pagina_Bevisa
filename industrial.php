@@ -29,62 +29,8 @@ include_once'template/header.php';
           <div class=" col-md-9 tab-content" id="myTabContent">
             <div role="tabpanel" id="Especialidades" class="col-md-12 tab-pane fade show active  ">
                 <h1>Especialidades</h1>
-                <h3>Mezcla de coloides  y colores que por calentamiento con agua y otros componentes líquidos forman una solución coloidal que al enfriar produce una masa semi fluida</h3>
-                <div class="row">
-                  <div class="col-md-6">
-                    <h2>Aplicación</h2>
-                    <p>Adición directa tanto a gelatinas como a postres y repostería</p>
-                  </div>
-                  <div class="col-md-6">
-                    <h2>Niveles de Uso</h2>
-                    <p>La dosis recomendada para este producto es al 1% ( 1 gr en 100 ml), sin embargo la dosis puede variar dependiendo la naturaleza del producto que se desea elaborar.</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                  </div>
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                  </div>
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                  </div>
-                </div>
-                <h2 class="text-center">Colores Disponibles</h2>
-                <div class="row">
-                  <div class="col-md-4">
-                    <ul>
-                      <li>Colorante en Gel Blue Jelly BEV-CLG-13</li>
-                      <li>Colorante en Gel Brawn Jelly BEV-CLG-14</li>
-                      <li>Colorante en Gel Amarillo Huevo BEV-CGL-08</li>
-                      <li>Colorante en Gel Amarillo Limón  BEV-CGL-10</li>
-                      <li>Colorante en Gel Azul  Oscuro BEV-CGL-07</li>
-                      <li>Colorante en Gel Blanco BEV-CGL-09</li>
-                      <li>Colorante en Gel Verde Esmaralda BEV-CGL-01</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-4">
-                    <ul>
-                      <li>Colorante en Gel Café Chocolate BEV-CGL-12</li>
-                      <li>Color en Gel Naranja BEV-CGL-03</li>
-                      <li>Colorante en Gel Negro BEV-CGL-11</li>
-                      <li>Colorante en Gel Rojo Navidad BEV-CGL-04</li>
-                      <li>Colorante en Gel Rojo Uva BEV-CGL-06</li>
-                      <li>Colorante en Gel Rosa BEV-CGL-05</li>
-                      <li>Colorante en Gel Verde Limón BEV-CGL-02</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-4">
-                    <ul>
-                      <li>Colorante en Gel Rojo Navidad BEV-CG8</li>
-                      <li>Colorante en Gel Mint Green Jelly BEV-CLG-15</li>
-                      <li>Colorante en Gel Red Strawberry BEV-CLG-17</li>
-                      <li>Colorante en Gel Yellow Vainilla Jelly BEV-CGL-18</li>
-                      <li>Colorante en gel Plata BEV-CG24</li>
-                    </ul>
-                  </div>
-                </div>
+                <h3>Te ofrecemos productos especialmente hechos para ti, adecuandonos a tus nececidades. Para más información contactanos</h3>
+                <a href="/contacto.php#formulario">Contacto</a>
             </div>
             <div role="tabpanel" id="Coloresgel" class="col-md-12 tab-pane fade  ">
                 <h1>Colores en gel</h1>
@@ -97,17 +43,6 @@ include_once'template/header.php';
                   <div class="col-md-6">
                     <h2>Niveles de Uso</h2>
                     <p>La dosis recomendada para este producto es al 1% ( 1 gr en 100 ml), sin embargo la dosis puede variar dependiendo la naturaleza del producto que se desea elaborar.</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                  </div>
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                  </div>
-                  <div class="col-md-4 text-center">
-                    <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
                   </div>
                 </div>
                 <h2 class="text-center">Colores Disponibles</h2>
@@ -158,17 +93,6 @@ include_once'template/header.php';
                   <p>La dosis exacta no puede estar establecida dado que depende de la naturaleza del producto terminado</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-              </div>
               <h2 class="text-center">Colores Disponibles</h2>
               <div class="row">
                 <div class="col-md-4">
@@ -192,17 +116,6 @@ include_once'template/header.php';
                 <div class="col-md-6">
                   <h2>Niveles de Uso</h2>
                   <p>La dosis exacta no puede estar establecida dado que depende de la naturaleza del producto terminado</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
                 </div>
               </div>
               <h2 class="text-center">Sabores Disponibles</h2>
@@ -259,17 +172,6 @@ include_once'template/header.php';
                 <div class="col-md-6">
                   <h2>Niveles de Uso</h2>
                   <p>La dosis recomendada está en el rango de 1.0 por Kg. La dosis exacta no puede estar establecida dado que depende de la naturaleza del producto terminado. Es un producto de uso industrial, por lo que no está destinado a ser consumido como tal</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
-                </div>
-                <div class="col-md-4 text-center">
-                  <img  class="img-industrial img-thumbnail" src="/img/index_recetas.jpg">
                 </div>
               </div>
               <h2 class="text-center">Sabores Disponibles</h2>

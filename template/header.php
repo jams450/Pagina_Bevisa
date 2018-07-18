@@ -39,9 +39,8 @@
     <div class="container">
       <div id="logo" class="pull-left">
         <a href="/index.php" >
-          <img class="bevisa_letras" src="/img/bevisa_blanco.png" alt="logo"></img>
+          <img class="bevisa_letras" src="/img/bevisalogo_blanco.png" alt="logo"></img>
         </a>
-        <img class="logo_p" src="/img/icono.png" alt="logo"></img>
       </div>
 
       <nav id="nav-menu-container">

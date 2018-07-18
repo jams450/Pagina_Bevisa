@@ -3,7 +3,7 @@ $destino="bevisagaleria@gmail.com";
 $mensaje="Nombre: " . $_POST['nombre'] ."\n";
 $mensaje.="Correo: " . $_POST['email'] ." \n";
 $mensaje.="Mensaje : " . $_POST['mensaje'];
-$titulo ="Mensaje enviado desde la pagina Web : " . $_POST['asunto'];
+$titulo ="Mensaje enviado desde la pagina Web, asunto : " . $_POST['asunto'];
 $bool = mail($destino,$titulo,$mensaje);
 if ($bool) {
   $respuesta="Correcto";

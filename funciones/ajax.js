@@ -10,7 +10,7 @@ $(document).ready(function()
         url: $(this).attr('action'),
         dataType: 'json',
         success: function(data) {
-          if (data=="Mal") {
+          if (data=="Correcto") {
               swal({
                 type: 'success',
                 title: 'Su mensaje ha sido enviado',

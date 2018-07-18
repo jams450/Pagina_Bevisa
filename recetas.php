@@ -49,7 +49,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/FLd00Bx4tOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <img src="/img/recetas/chamoyada.png" class="recetas" alt="">
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/FLd00Bx4tOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <img src="/img/recetas/agua.png" class="recetas" alt="">
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/FLd00Bx4tOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <img src="/img/recetas/smoothie.png" class="recetas" alt="">
                 </div>
               </div>
             </div>
@@ -167,7 +167,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/FLd00Bx4tOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <img src="/img/recetas/frapee.png" class="recetas" alt="">
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/FLd00Bx4tOk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <img src="/img/recetas/frapee_amareto.png" class="recetas" alt="">
                 </div>
               </div>
             </div>

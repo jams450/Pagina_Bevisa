@@ -98,9 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo a img {
   padding: 0;
-  margin: 0;
+  margin-top: -20px
 }
-
+@media (max-width: 1000px) {
+  #header #logo a img {
+    margin-top: -10px
+  }
+}
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 28px;
