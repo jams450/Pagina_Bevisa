@@ -23,18 +23,19 @@
     <a href="/contacto.php#formulario" class="icono-social icon-mail" target="_blank">bevisagaleria@gmail.com &nbsp;<i class="far fa-envelope"></i></a>
   </div>
 
-<script src="../lib/jquery/jquery.min.js"></script>
-<script src="../lib/jquery/jquery-migrate.min.js"></script>
-<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../lib/easing/easing.min.js"></script>
-<script src="../lib/wow/wow.min.js"></script>
-<script src="../lib/superfish/js/hoverIntent.js"></script>
-<script src="../lib/superfish/js/superfish.min.js"></script>
-<script src="../lib/magnific-popup/magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="../js/sweetalert2.min.js"></script>
-<script src="../js/main.js"></script>
-<script src="../funciones/ajax.js"></script>
-<script src="../js/bevisa.js"></script>
+<script src="../js/main-min.js"></script>
+<script src="../funciones/ajax-min.js"></script>
+<script src="../js/bevisa-min.js"></script>
 <script>
 FontAwesomeConfig = { searchPseudoElements: true };
 </script>
