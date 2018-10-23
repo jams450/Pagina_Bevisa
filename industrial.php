@@ -122,41 +122,39 @@ include_once'template/header.php';
               <div class="row">
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor Cajeta BEV-599</li>
-                    <li>Sabor capuchino BEV-144C</li>
-                    <li>Sabor Chocolate BEV-5146-5</li>
-                    <li>Sabor chocolate BEV-516</li>
-                    <li>Sabor Coco BEV-114</li>
-                    <li>Sabor Fresa BEV-3728-1</li>
-                    <li>Sabor Guayaba BEV-721</li>
-                    <li>Sabor Jerez BEV-2586</li>
-                    <li>Sabor Leche Condensada BEV-1402-2</li>
+                    <li>Sabor Cajeta</li>
+                    <li>Sabor capuchino </li>
+                    <li>Sabor Chocolate </li>
+                    <li>Sabor chocolate </li>
+                    <li>Sabor Coco </li>
+                    <li>Sabor Fresa </li>
+                    <li>Sabor Guayaba </li>
+                    <li>Sabor Jerez </li>
+                    <li>Sabor Leche Condensada </li>
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor Limón BEV-258</li>
-                    <li>Sabor Limón BEV-3907</li>
-                    <li>Sabor Mandarina BEV-259</li>
-                    <li>Sabor Mango BEV-0110</li>
-                    <li>Sabor Mantequilla BEV-4179-1</li>
-                    <li>Sabor Mantequilla-Naranja BEV-09057</li>
-                    <li>Sabor Mantequilla-Vainilla BEV-0611-8</li>
-                    <li>Sabor Naranja BEV-257</li>
-                    <li>Sabor Naranja BEV-3009</li>
+                    <li>Sabor Limón</li>
+                    <li>Sabor Limón </li>
+                    <li>Sabor Mandarina </li>
+                    <li>Sabor Mango </li>
+                    <li>Sabor Mantequilla </li>
+                    <li>Sabor Mantequilla-Naranja </li>
+                    <li>Sabor Mantequilla-Vainilla </li>
+                    <li>Sabor Naranja </li>
+
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor Nata BEV-1408-7</li>
-                    <li>Sabor Nuez BEV-0811-05</li>
-                    <li>Sabor Nuez BEV-4560</li>
-                    <li>Sabor Piña BEV-116</li>
-                    <li>Sabor Pistache BEV-120</li>
-                    <li>Sabor Rompope BEV-4563</li>
-                    <li>Sabor Vainilla BEV-5TC</li>
-                    <li>Sabor Vainilla BEV-1299</li>
-                    <li>Sabor Vainilla BEV-189</li>
+                    <li>Sabor Nata </li>
+                    <li>Sabor Nuez </li>
+                    <li>Sabor Piña </li>
+                    <li>Sabor Pistache </li>
+                    <li>Sabor Rompope </li>
+                    <li>Sabor Vainilla </li>
+
                   </ul>
                 </div>
               </div>
@@ -170,42 +168,38 @@ include_once'template/header.php';
                   <p>Adición a postres y bebidas</p>
                 </div>
                 <div class="col-md-6">
-                  <h2>Niveles de Uso</h2>
-                  <p>La dosis recomendada está en el rango de 1.0 por Kg. La dosis exacta no puede estar establecida dado que depende de la naturaleza del producto terminado. Es un producto de uso industrial, por lo que no está destinado a ser consumido como tal</p>
+                  <h2>Niveles de Uso</h2><p>La dosis recomendada está en el rango de 1.0 por Kg. La dosis exacta no puede estar establecida dado que depende de la naturaleza del producto terminado. Es un producto de uso industrial, por lo que no está destinado a ser consumido como tal</p>
                 </div>
               </div>
               <h2 class="text-center">Sabores Disponibles</h2>
               <div class="row">
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor cítricos BEV-7946</li>
-                    <li>Sabor Durazno BEV-SDDZ-40</li>
-                    <li>Sabor Fresa BEV-FP-0611</li>
-                    <li>Sabor Fresa BEV-FRM-10</li>
-                    <li>Sabor Fresa BEV-47293</li>
-                    <li>Sabor Frutas Tropicales BEV-4790</li>
-                    <li>Sabor Uva BEV-1614 (MIX)</li>
+                    <li>Sabor Cítricos </li>
+                    <li>Sabor Durazno </li>
+                    <li>Sabor Fresa </li>
+                    <li>Sabor Frutas Tropicales </li>
+                    <li>Sabor Uva  (MIX)</li>
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor frutos del bosque BEV-4828</li>
-                    <li>Sabor Limón BEV-2586 (MIX)</li>
-                    <li>Sabor Limón BEV-2260 </li>
-                    <li>Sabor Manzana BEV-SDMZ-42</li>
-                    <li>Sabor Moras BEV-SDMO-41</li>
-                    <li>Sabor Naranja BEV-498</li>
-                    <li>Sabor Vainilla BEV-VAM-13</li>
+                    <li>Sabor frutos del bosque </li>
+                    <li>Sabor Limón  (MIX)</li>
+                    <li>Sabor Limón  </li>
+                    <li>Sabor Manzana </li>
+                    <li>Sabor Moras </li>
+                    <li>Sabor Naranja </li>
+                    <li>Sabor Vainilla </li>
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor Naranja BEV-113 (MIX)</li>
-                    <li>Sabor Piña BEV-47193 (MIX)</li>
-                    <li>Sabor Pollo BEV-SPO11</li>
-                    <li>Sabor Pollo BEV-SPO12</li>
-                    <li>Sabor Té Verde BEV-986</li>
-                    <li>Sabor Vainilla para chocolate BEV-MVA</li>
+                    <li>Sabor Naranja  (MIX)</li>
+                    <li>Sabor Piña  (MIX)</li>
+                    <li>Sabor Pollo </li>
+                    <li>Sabor Té Verde </li>
+                    <li>Sabor Vainilla para chocolate</li>
                   </ul>
                 </div>
               </div>
