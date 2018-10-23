@@ -49,33 +49,34 @@ include_once'template/header.php';
                 <div class="row">
                   <div class="col-md-4">
                     <ul>
-                      <li>Colorante en Gel Blue Jelly BEV-CLG-13</li>
-                      <li>Colorante en Gel Brawn Jelly BEV-CLG-14</li>
-                      <li>Colorante en Gel Amarillo Huevo BEV-CGL-08</li>
-                      <li>Colorante en Gel Amarillo Limón  BEV-CGL-10</li>
-                      <li>Colorante en Gel Azul  Oscuro BEV-CGL-07</li>
-                      <li>Colorante en Gel Blanco BEV-CGL-09</li>
-                      <li>Colorante en Gel Verde Esmaralda BEV-CGL-01</li>
+                      <li>Colorante en Gel Blue Jelly </li>
+                      <li>Colorante en Gel Brawn Jelly </li>
+                      <li>Colorante en Gel Amarillo Huevo </li>
+                      <li>Colorante en Gel Amarillo Limón  </li>
+                      <li>Colorante en Gel Azul  Oscuro </li>
+                      <li>Colorante en Gel Blanco </li>
+
                     </ul>
                   </div>
                   <div class="col-md-4">
                     <ul>
-                      <li>Colorante en Gel Café Chocolate BEV-CGL-12</li>
-                      <li>Color en Gel Naranja BEV-CGL-03</li>
-                      <li>Colorante en Gel Negro BEV-CGL-11</li>
-                      <li>Colorante en Gel Rojo Navidad BEV-CGL-04</li>
-                      <li>Colorante en Gel Rojo Uva BEV-CGL-06</li>
-                      <li>Colorante en Gel Rosa BEV-CGL-05</li>
-                      <li>Colorante en Gel Verde Limón BEV-CGL-02</li>
+                      <li>Colorante en Gel Verde Esmaralda </li>
+                      <li>Colorante en Gel Café Chocolate </li>
+                      <li>Color en Gel Naranja </li>
+                      <li>Colorante en Gel Negro</li>
+                      <li>Colorante en Gel Rojo Navidad </li>
+                      <li>Colorante en Gel Rojo Uva </li>
+
                     </ul>
                   </div>
                   <div class="col-md-4">
                     <ul>
-                      <li>Colorante en Gel Rojo Navidad BEV-CG8</li>
-                      <li>Colorante en Gel Mint Green Jelly BEV-CLG-15</li>
-                      <li>Colorante en Gel Red Strawberry BEV-CLG-17</li>
-                      <li>Colorante en Gel Yellow Vainilla Jelly BEV-CGL-18</li>
-                      <li>Colorante en gel Plata BEV-CG24</li>
+                      <li>Colorante en Gel Rosa</li>
+                      <li>Colorante en Gel Verde Limón </li>
+                      <li>Colorante en Gel Mint Green Jelly </li>
+                      <li>Colorante en Gel Red Strawberry </li>
+                      <li>Colorante en Gel Yellow Vainilla Jelly </li>
+                      <li>Colorante en gel Plata </li>
                     </ul>
                   </div>
                 </div>
@@ -123,31 +124,30 @@ include_once'template/header.php';
                 <div class="col-md-4">
                   <ul>
                     <li>Sabor Cajeta</li>
-                    <li>Sabor capuchino </li>
+                    <li>Sabor Capuchino </li>
                     <li>Sabor Chocolate </li>
-                    <li>Sabor chocolate </li>
                     <li>Sabor Coco </li>
                     <li>Sabor Fresa </li>
                     <li>Sabor Guayaba </li>
                     <li>Sabor Jerez </li>
-                    <li>Sabor Leche Condensada </li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <ul>
-                    <li>Sabor Limón</li>
-                    <li>Sabor Limón </li>
-                    <li>Sabor Mandarina </li>
-                    <li>Sabor Mango </li>
-                    <li>Sabor Mantequilla </li>
-                    <li>Sabor Mantequilla-Naranja </li>
-                    <li>Sabor Mantequilla-Vainilla </li>
-                    <li>Sabor Naranja </li>
 
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
+                    <li>Sabor Leche Condensada </li>
+                    <li>Sabor Limón</li>
+                    <li>Sabor Mandarina </li>
+                    <li>Sabor Mango </li>
+                    <li>Sabor Mantequilla </li>
+                    <li>Sabor Mantequilla-Naranja </li>
+                    <li>Sabor Mantequilla-Vainilla </li>
+
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul>
+                    <li>Sabor Naranja </li>
                     <li>Sabor Nata </li>
                     <li>Sabor Nuez </li>
                     <li>Sabor Piña </li>
@@ -180,11 +180,11 @@ include_once'template/header.php';
                     <li>Sabor Fresa </li>
                     <li>Sabor Frutas Tropicales </li>
                     <li>Sabor Uva  (MIX)</li>
+                    <li>Sabor Frutos del bosque </li>
                   </ul>
                 </div>
                 <div class="col-md-4">
                   <ul>
-                    <li>Sabor frutos del bosque </li>
                     <li>Sabor Limón  (MIX)</li>
                     <li>Sabor Limón  </li>
                     <li>Sabor Manzana </li>
