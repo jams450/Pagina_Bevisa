@@ -12,17 +12,17 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
-  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/bevisa.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bevisa-min.css" rel="stylesheet">
+  <link href="../css/style-min.css" rel="stylesheet">
 
-  <link href="../lib/animate/animate.min.css" rel="stylesheet">
-  <link href="../lib/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
-  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <link href="../css/style.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/css/superfish.min.css" rel="stylesheet">
   <link href="../css/sweetalert2.min.css" rel="stylesheet">
-  <link href="../lib/superfish/css/superfish.css" rel="stylesheet">
+
 </head>
 
 <div class="bg"></div>

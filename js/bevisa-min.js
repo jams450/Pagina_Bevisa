@@ -1,0 +1,1 @@
+function quitar(n){$(".serv").addClass("d-none"),$(n).removeClass("d-none")}$(".disable").click(function(n){n.preventDefault()}),$(window).load(function(){setTimeout(function(){$(".bg").fadeOut("slow"),$("#loading").fadeOut("slow")},200)});
